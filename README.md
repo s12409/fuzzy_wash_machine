@@ -11,15 +11,14 @@ function )、模糊、解模糊定義在模糊集上的系統。模糊系統從�
 抓住了人腦思維的模糊性特點，在描述高階知識與行為方面發揮很好的效
 用，可以模仿人的綜合推斷來處理常規數學方法難以解決的模糊信息處理
 問題。
-# membership function example
-![Image](./fuzzy_img/membership.jpg)
+# membership 
 # Input Setting
 將衣物髒污程度(cloth_dirtiness)、衣物多寡(cloth_mass)、布料敏感程度
 (cloth_sensitivity)依照程度分成3類，水質軟硬(water_hardness)分成兩類。 
-![Image](./fuzzy_img/input_setting.jpg)
+![Image](./fuzzy_img/membership_input.jpg)
 # Output Setting
 將洗衣時間(wash_time) 分成五類、水量(water_amount)、洗衣劑用量
 (detergent_amount)、水溫(water_temperature)依照程度分成3類。 
-![Image](./fuzzy_img/output_setting.jpg)
+![Image](./fuzzy_img/membership_output.jpg)
 # UI DEMO
 ![Image](./fuzzy_img/demo_ui.jpg)
